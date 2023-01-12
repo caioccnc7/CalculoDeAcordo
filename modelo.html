@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acordo</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="FileSaver.min.js"></script>
+</head>
+<body>
+    <header> <h1>Calculos de Acordos!</h1></header>
+    <section>
+
+     <form onsubmit="prospectar(event)">
+            <div>
+                <label for="nome">Cliente: </label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="exec">Executada:</label>
+                <input type="exec" id="exec">
+            </div>
+            <div>
+                <label for="valor">Valor:</label>
+                <input type="valor" id="valor"> 
+            </div>
+            <div>
+                <label for="entrada">Entrada:</label>
+                <input type="entrada" id="entrada"> 
+            </div>
+            
+            <div>
+                <label for="parcela">Parcelas:</label>
+                <input type="parcela" id="parcela">
+            </div>
+
+            <div id="res">
+                
+            </div>
+            <button>Prospectar </button>
+        </form>
+    </section>    
+
+
+
+
+    <footer>
+        <p>&copy; Acordo</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
